@@ -5,7 +5,10 @@ import CurrencyExchangeContainer from "./components/CurrencyExchangeContainer";
 function App() {
   return (
       <React.Fragment>
-        <CurrencyExchangeContainer />
+          <div className="container">
+              <CurrencyExchangeContainer />
+          </div>
+
       </React.Fragment>
   );
 }
